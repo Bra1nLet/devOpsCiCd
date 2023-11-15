@@ -22,4 +22,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: chmod +w+x /run.sh
     - run: ./run.sh
