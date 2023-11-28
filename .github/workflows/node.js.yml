@@ -22,5 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: chmod +x $PWD/run.sh 
-    - run: $PWD/run.sh
+    - run: chmod +x $PWD/run.sh
+    - name: Run bash script which will print "Ostapenko Bohdan"
+      run: $PWD/run.sh
