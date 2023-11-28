@@ -1,3 +1,4 @@
 #!/bin/bash
 npm install
-npm start
+npm-check
+echo Ostapenko Bohdan
